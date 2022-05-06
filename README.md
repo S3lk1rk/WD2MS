@@ -19,12 +19,8 @@ after the installation is complete the user may use nodemon index.js to host the
 access it on localhost.3000/ in the browser of their choosing, chrome is recommended to view the 
 application in both website and phone version.
 
-4.
-To log into the application there is a staff login
-the username is : Staff
-and the password is : St4ff!#
-
-this will enable the users to fully view all parts of the application.
-#� �M�S�C�o�u�r�s�e�w�o�r�k�w�e�b�d�e�v�2�
-�
-�
+4. To log into the application there is a staff log in 
+username: Staff
+password: St4ff!#
+ 
+5. this will enable the users to fully view all parts of the application.
