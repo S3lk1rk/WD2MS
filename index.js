@@ -22,6 +22,7 @@ app.set('view engine', 'mustache');
 const router = require('./routes/restaurantRoutes');
 app.use('/', router);
 
-app.listen(3000, () => {
-    console.log('Server started on port 3000. Ctrl^c to quit.');
-    })  
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+console.log(`Server is listening on port ${PORT}`);
+});
