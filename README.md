@@ -23,4 +23,7 @@ application in both website and phone version.
 username: Staff
 password: St4ff!#
  
-5. this will enable the users to fully view all parts of the application.
+5. the live application can be viewed at this link.
+```bash
+https://mselkirkcw2wd2.herokuapp.com/
+```
