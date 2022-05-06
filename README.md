@@ -20,9 +20,10 @@ access it on localhost.3000/ in the browser of their choosing, chrome is recomme
 application in both website and phone version.
 
 4. To log into the application there is a staff log in 
+ ```bash
 username: Staff
 password: St4ff!#
- 
+```
 5. the live application can be viewed at this link.
 ```bash
 https://mselkirkcw2wd2.herokuapp.com/
