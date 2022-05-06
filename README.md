@@ -14,8 +14,8 @@ npm install bcrypt
 npm install cookie-parser
 npm install dotenv
 ```
-3. running the application
-after the installation is complete the user may use nodemon index.js to host the app locally and 
+## running the application
+3. after the installation is complete the user may use nodemon index.js to host the app locally and 
 access it on localhost.3000/ in the browser of their choosing, chrome is recommended to view the 
 application in both website and phone version.
 
