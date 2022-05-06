@@ -31,3 +31,7 @@ https://mselkirkcw2wd2.herokuapp.com/
 ```bash
 heroku local web
 ```
+and then be viewed at 
+```bash
+localhost:5000
+```
