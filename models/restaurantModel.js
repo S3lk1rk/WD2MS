@@ -209,8 +209,7 @@ editEntry(identification, Menutype, dmealtype, ddescription,dingredients, daller
         dishAvailability: available
         }
         this.db.update({ _id: identification }, { $set: entry }, { multi: true }, function (err, numReplaced) {
-            // numReplaced = 3
-            // Field 'system' on Mars, Earth, Jupiter now has value 'solar system'
+   
           })
          
     }   
