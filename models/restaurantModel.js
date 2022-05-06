@@ -18,7 +18,7 @@ this.db.insert({
     description: 'A hearty locally sourced breakfast to start your day right.',
     ingredients: 'Baked beans, gluten free pork sausage, frittata muffin, white potato, roast mushroom',
     allergens: 'mustard, eggs and soya bean',
-    price: '£9.00',
+    price: '9.00',
     dishName: 'The Après Organic English Breakfast',
     dishAvailability: 'available',
     });
@@ -32,7 +32,7 @@ this.db.insert({
     description: 'a healthy meal  high in protein and big on flavour',
     ingredients: '1tbsp tamari, curry powder, cumin, garlic, clear honey, chicken breast, peanut butter, sweet chilli sauce, lime juice, sunflower oil, Little Gem lettuce, cucumber, banana shallot, coriander, pomegranate',
     allergens: 'Peanut',
-    price: '£6.50',
+    price: '6.50',
     dishName: 'Chicken satay salad',
     dishAvailability: 'available',
     });
@@ -46,7 +46,7 @@ this.db.insert({
     description: 'A low-calorie vegan linguine which can also be served cold as a pasta salad. It delivers on flavour and its healthy.',
     ingredients:'wholemeal linguine, lime, avocado, tomatoes, chopped, coriander, red onion, red chilli',
     allergens: 'Gluten, Avocado',
-    price: '£5.50',
+    price: '5.50',
     dishName: 'Linguine with avocado, tomato & lime',
     dishAvailability: 'available',   
     });
@@ -61,7 +61,7 @@ this.db.insert({
     description: 'A healthy vegetarian take on a classic dish.',
     ingredients: 'cauliflower puree, Beetroot fritters,  roast aubergine, parsley dressing.' ,
     allergens: 'None',
-    price: '£8.80',
+    price: '8.80',
     dishName: 'Organic Beetroot & Apple Fritters with Mint & Chilli Dressing',   
     dishAvailability: 'available',
     });
@@ -72,11 +72,11 @@ this.db.insert({
     _id:'5',
     Menutype: 'Dinner',
     mealType: 'Main',
-    description: '',
-    ingredients: '' ,
-    allergens: '',
-    price: '£',
-    dishName: '',  
+    description: 'the finest seafood sourced from the north sea',
+    ingredients: 'salmon, prawns, crackers, rye bread, caperberries, smoked trout pâté, smoked trout, soft cheese, capersDijon, mustard, lemon, red onion, dill, soured cream, mayonnaise, hot sauce',
+    allergens: 'Seafood, dairy, gluten, egg',
+    price: '14',
+    dishName: 'Seafood platter',  
     dishAvailability: 'available', 
     });
     //for later debugging
@@ -84,19 +84,46 @@ this.db.insert({
 
 this.db.insert({
     _id:'6',
+    Menutype: 'Lunch',
+    mealType: 'Main',
+    description: 'Dunk flatbreads into these salsa verde baked eggs to soak up the lovely juices. Healthy and low in calories',
+    ingredients: 'olive oil, smoked paprika, cumin seeds, cherry tomatoes, garlic cloves, parsley, basil, mint, capers, Dijon mustard, white wine vinegar, spinach, eggs, chilli flakes, flatbreads',
+    allergens: 'eggs',
+    price: '6',
+    dishName: 'Salsa verde baked eggs',   
+    dishAvailability: 'available',
+    });
+    //for later debugging
+    console.log('db entry inserted');
+}/*
+this.db.insert({
+    _id:'7',
     Menutype: 'Dinner',
     mealType: 'Main',
     description: '',
     ingredients: '' ,
     allergens: '',
-    price: '£',
+    price: '',
     dishName: '',   
     dishAvailability: 'available',
     });
     //for later debugging
     console.log('db entry inserted');
 }
-
+this.db.insert({
+    _id:'8',
+    Menutype: 'Dinner',
+    mealType: 'Main',
+    description: '',
+    ingredients: '' ,
+    allergens: '',
+    price: '',
+    dishName: '',   
+    dishAvailability: 'available',
+    });
+    //for later debugging
+    console.log('db entry inserted');
+}*/
 //a function to return all entries from the database
 getAllEntries() {
     //return a Promise object, which can be resolved or rejected
