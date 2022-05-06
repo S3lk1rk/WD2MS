@@ -27,3 +27,7 @@ password: St4ff!#
 ```bash
 https://mselkirkcw2wd2.herokuapp.com/
 ```
+6. or instanced locally using 
+```bash
+heroku local web
+```
