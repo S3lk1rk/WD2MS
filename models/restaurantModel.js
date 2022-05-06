@@ -95,35 +95,49 @@ this.db.insert({
     });
     //for later debugging
     console.log('db entry inserted');
-}/*
+
 this.db.insert({
     _id:'7',
     Menutype: 'Dinner',
     mealType: 'Main',
-    description: '',
-    ingredients: '' ,
-    allergens: '',
-    price: '',
-    dishName: '',   
+    description: 'healthy fish curry, with vibrant turmeric, ginger and coconut flavours',
+    ingredients: 'olive oil, onions, ginger, turmeric, garam masalam, cayenne, coconut milk, cod loin, sugar snap peas, brown basmati rice, red chilli, 1 lime',
+    allergens: 'none',
+    price: '9.50',
+    dishName: 'Turmeric, ginger & coconut fish curry',   
+    dishAvailability: 'available',
+    });
+    //for later debugging
+    console.log('db entry inserted');
+
+this.db.insert({
+    _id:'8',
+    Menutype: 'Lunch',
+    mealType: 'Starter',
+    description: 'chunks of fresh pineapple to fried rice to transform it into something special',
+    ingredients: 'vegetable oil, eggs , garlic cloves, spring onions, Chinese five-spice powder, long-grain ricepeas, sesame oil, soy sauce, pineapple',
+    allergens: 'eggs',
+    price: '4',
+    dishName: 'Pineapple fried rice',   
+    dishAvailability: 'available',
+    });
+    //for later debugging
+    console.log('db entry inserted');
+
+this.db.insert({
+    _id:'9',
+    Menutype: 'Dinner',
+    mealType: 'Main',
+    description: 'The perfect dinner for two',
+    ingredients: 'broccoli, spaghetti, olive oil, garlic clove, cherry tomatoes, king prawns, rose harissa paste, lemon',
+    allergens: 'gluten',
+    price: '10',
+    dishName: 'Prawn & harissa spaghetti',   
     dishAvailability: 'available',
     });
     //for later debugging
     console.log('db entry inserted');
 }
-this.db.insert({
-    _id:'8',
-    Menutype: 'Dinner',
-    mealType: 'Main',
-    description: '',
-    ingredients: '' ,
-    allergens: '',
-    price: '',
-    dishName: '',   
-    dishAvailability: 'available',
-    });
-    //for later debugging
-    console.log('db entry inserted');
-}*/
 //a function to return all entries from the database
 getAllEntries() {
     //return a Promise object, which can be resolved or rejected
