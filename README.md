@@ -35,3 +35,7 @@ and then be viewed at
 ```bash
 localhost:5000
 ```
+I encountered an issue and had to create another repository to fix the issue, so most of my commits are on this repository if required for viewing
+```bash
+https://github.com/S3lk1rk/1MSekirkWebDev2
+```
