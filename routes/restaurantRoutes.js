@@ -7,7 +7,7 @@ const {verify} = require('../auth/auth')
 router.get('/login', controller.show_login);
 router.post('/login', login, controller.handle_login);
 router.get("/dinner", controller.Dinnerlanding);
-router.get("/peter", controller.lunchlanding);
+router.get("/lunch", controller.lunchlanding);
 router.get("/home", verify, controller.homepage);
 router.get("/aboutus", verify, controller.aboutus);
 router.get('/new',verify, controller.showAddDishToDB);

@@ -160,8 +160,6 @@ getAllEntries() {
     getLunchMenu() {
         //return a Promise object, which can be resolved or rejected
         return new Promise((resolve, reject) => {
-        //find(Menutype:'Peter) retrieves the data,
-        //with error first callback function, err=error, entries=data
         this.db.find({dishAvailability:'available', Menutype: 'Lunch' }, function(err, entries) {
         //if error occurs reject Promise
         if (err) {
@@ -170,7 +168,7 @@ getAllEntries() {
         } else {
         resolve(entries);
         //to see what the returned data looks like
-        console.log('getPetersEntries() returns: ', entries);
+        console.log('getLunchMenu() returns: ', entries);
         }
         })
         })
@@ -178,8 +176,7 @@ getAllEntries() {
         getDinnerMenu() {
             //return a Promise object, which can be resolved or rejected
             return new Promise((resolve, reject) => {
-            //find(Menutype:'Peter) retrieves the data,
-            //with error first callback function, err=error, entries=data
+     
             this.db.find({dishAvailability:'available', Menutype: 'Dinner' }, function(err, entries) {
             //if error occurs reject Promise
             if (err) {
@@ -188,7 +185,7 @@ getAllEntries() {
             } else {
             resolve(entries);
             //to see what the returned data looks like
-            console.log('getPetersEntries() returns: ', entries);
+            console.log('getDinnerMenu() returns: ', entries);
             }
             })
             })
@@ -196,8 +193,6 @@ getAllEntries() {
 
 availibilitychanger(identification,available) {
         this.db.update({ _id: identification}, {  $set: { dishAvailability: available } }, {}, function (err, numReplaced) {
-            // numReplaced = 3
-            // Field 'system' on Mars, Earth, Jupiter now has value 'solar system'
           }) 
     }   
                 
